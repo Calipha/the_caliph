@@ -1,6 +1,6 @@
 # TheCaliph
 
-TODO: Write a gem description
+An API to access current list of world leaders and their respective countries and titles.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TheCaliph::Countries.list
+
+TheCaliph::Leaders.list
 
 ## Contributing
 
