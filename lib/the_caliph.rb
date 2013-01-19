@@ -6,7 +6,9 @@ module TheCaliph
   autoload :Countries
   autoload :Leaders
 
-  def method_missing(method, *args, &block)
-     puts "There's no method called #{method} here -- please try again."
+  class << self
+    def method_missing(method, *args, &block)
+       puts "There's no method called #{method} here -- please try again."
+    end
   end
 end
